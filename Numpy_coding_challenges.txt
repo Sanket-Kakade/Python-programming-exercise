@@ -1,0 +1,90 @@
+1. Create a 3X3 numpy array with random integers. Replace all odd items with 0.
+
+2. Create 2 numpy arrays with shape 1X3 and 2X3. Create a new array c by stacking them vertically so that its shape should be 3X3
+
+3. Create 2 numpy arrays of shape 1X10. Filled with random integers between 0 to 10. Create a new array with common elements between them. 
+
+4. Create 2 numpy arrays of shape 1X10. Filled with random integers between 0 to 10. Create a new array mentioning the index of the common elements between those arrays. 
+
+5. Create a 1-D array with 8 elements. Create a new array with the elements in the original arrays reversed. 
+
+6. Create a 1-D array with 8 elements. Calculate the mean, median and std deviation of the elements in that array. 
+
+7. Create a numpy array with shape mXn where m and n are user defined inputs, containing random integers between 0 to 30. Filter elements which are greater than 10 and divisible by 3.
+
+8. Create a 1-D array with 20 elements, containing random integers between 0 to 15. Find the count of unique values in the array.
+
+9. Create a 1-D array with 20 elements, containing random integers between 1 to 5. Convert the numbers to the text using following rule:
+1: 'Very Bad'
+2: 'Bad'
+3: 'OK'
+4: 'Good'
+5: 'Very good'
+
+
+10.Create an 8X3 integer array from a range between 10 to 34 such that the difference between each element is 1 and then Split the array into four equal-sized sub-arrays.
+Eg:
+Creating 8X3 array using numpy.arange
+[[10 11 12]
+ [13 14 15]
+ [16 17 18]
+ [19 20 21]
+ [22 23 24]
+ [25 26 27]
+ [28 29 30]
+ [31 32 33]]
+
+Dividing 8X3 array into 4 sub array
+
+[array([[10, 11, 12],[13, 14, 15]]), 
+array([[16, 17, 18],[19, 20, 21]]), 
+array([[22, 23, 24],[25, 26, 27]]), 
+array([[28, 29, 30],[31, 32, 33]])]
+
+11. Following is the input NumPy array delete column two and insert following new column in its place.
+
+sampleArray = array([[34,43,73],[82,22,12],[53,94,66]]) 
+
+newColumn = array([[10,10,10]])
+
+Array after inserting the given column
+
+[[34 10 73]
+ [82 10 12]
+ [53 10 66]]
+
+12. Create a 5x5 matrix with values 1,2,3,4 just below the diagonal. 
+
+13. Consider a (6,7,8) shape array, what is the index (x,y,z) of the 50th element? What is the index of 100th element?
+
+14. Consider a random 10x2 matrix representing cartesian coordinates, convert them to polar coordinates.
+
+15. Consider a one-dimensional array Z, build a two-dimensional array whose first row is (Z[0],Z[1],Z[2]) and each subsequent row is shifted by 1 (last row should be (Z[-3],Z[-2],Z[-1])
+
+16. Create a numpy array of dimension (5X5) with integer values between 0 to 5. Find the most frequent value in the array.
+
+17. Consider two arrays A and B of shape (8,3) and (2,2). How to find rows of A that contain elements of each row of B regardless of the order of the elements in B? 
+
+18. Write a code using numpy function program to create random array of size 10 and replace the maximum value by -1.
+
+19. Write a code using numpy to find the most frequent value in an array.
+
+20. Create a 5X2 numpy array from a range between 100 to 200 such that the difference between each element is 10.
+
+21. Create a numpy array with shape mXn where m and n are user defined input, containing random integers. Create an array of odd rows and even columns. 
+
+Sample input:
+m= 5
+n= 4
+Input array:
+[[ 3  6  9 12]
+ [15 18 21 24]
+ [27 30 33 36]
+ [39 42 45 48]
+ [51 54 57 60]]
+
+Output array:
+[[ 6 12]
+ [30 36]
+ [54 60]]
+ 
