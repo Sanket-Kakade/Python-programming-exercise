@@ -72,7 +72,7 @@ Array after inserting the given column
 20. Create a 5X2 numpy array from a range between 100 to 200 such that the difference between each element is 10.
 
 21. Create a numpy array with shape mXn where m and n are user defined input, containing random integers. Create an array of odd rows and even columns. 
-
+ 
 Sample input:
 m= 5
 n= 4
